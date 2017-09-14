@@ -1,0 +1,406 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body,
+#app,
+.wrapper {
+	font-size: 62.5%;
+	height: 100%;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, "microsoft yahei", arial, STHeiTi, sans-serif;
+	font-size: 1.6rem;
+}
+
+html {
+	height: 100%;
+}
+
+body::before {
+	content: '';
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: url(../img/bg.jpg) center center no-repeat;
+	background-size: cover;
+	z-index: -1;
+}
+
+ul,
+li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+.comWidth {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none
+}
+
+
+/*液晶字体*/
+
+@font-face {
+	font-family: 'fontNameQarmicsans';
+	src: url('../fonts/ds-digi-webfont.eot');
+	src: local('fontName Regular'), local('fontName'), url('../fonts/ds-digi-webfont.woff') format('woff'), url('../fonts/ds-digi-webfont.ttf') format('truetype'), url('../fonts/ds-digi-webfont.svg#fontName') format('svg');
+}
+
+.content {
+	position: relative;
+	box-sizing: border-box;
+	margin-left: 220px;
+	padding: 74px 32px 8px 32px;
+	min-height: 500px;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+
+.contentOpen {
+	margin-left: 10px;
+}
+
+.crumbs {
+	margin-bottom: 20px;
+}
+
+.pagination {
+	margin: 20px 0;
+	text-align: right;
+}
+
+.plugins-tips {
+	padding: 20px 10px;
+	margin-bottom: 20px;
+}
+
+.el-button+.el-tooltip {
+	margin-left: 10px;
+}
+
+.el-table td,
+.el-table th {
+	padding: 5px 18px;
+}
+
+.el-table tr:hover {
+	background: #f6faff;
+}
+
+.mgb20 {
+	margin-bottom: 20px;
+}
+
+.move-enter-active,
+.move-leave-active {
+	transition: opacity .5s;
+}
+
+.move-enter,
+.move-leave {
+	opacity: 0;
+}
+
+
+/*BaseForm*/
+
+.form-box {
+	width: 600px;
+}
+
+.form-box .line {
+	text-align: center;
+}
+
+.el-time-panel__content::after,
+.el-time-panel__content::before {
+	margin-top: -7px;
+}
+
+
+/*Readme*/
+
+.ms-doc .el-checkbox__input.is-disabled+.el-checkbox__label {
+	color: #333;
+	cursor: pointer;
+}
+
+
+/*Upload*/
+
+.pure-button {
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	border-radius: 3px;
+}
+
+.g-core-image-corp-container .info-aside {
+	height: 45px;
+}
+
+.el-upload--text {
+	background-color: #fff;
+	border: 1px dashed #d9d9d9;
+	border-radius: 6px;
+	box-sizing: border-box;
+	width: 360px;
+	height: 180px;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+
+.el-upload--text .el-icon-upload {
+	font-size: 67px;
+	color: #97a8be;
+	margin: 40px 0 16px;
+	line-height: 50px;
+}
+
+.el-upload--text {
+	color: #97a8be;
+	font-size: 14px;
+	text-align: center;
+}
+
+.el-upload--text em {
+	font-style: normal;
+}
+
+
+/*VueEditor*/
+
+.ql-container {
+	min-height: 400px;
+}
+
+.ql-snow .ql-tooltip {
+	transform: translateX(117.5px) translateY(10px) !important;
+}
+
+.editor-btn {
+	margin-top: 20px;
+}
+
+.commonTable .el-table th,
+.commonTable .el-table td {
+	text-align: center;
+}
+
+.commonTable .el-table .cell {
+	padding: 0;
+}
+
+.el-tabs--border-card>.el-tabs__header {
+	background: #737e8d !important;
+}
+
+.el-tabs__item {
+	color: #fff !important;
+}
+
+.el-tabs__item:hover {
+	color: #20a0ff !important;
+	/*color: #fff !important;*/
+}
+
+.el-tabs__item.is-active {
+	color: #737e8d !important;
+}
+
+.el-menu--dark .el-submenu .el-menu {
+	background: none !important;
+}
+
+.el-menu--dark .el-submenu .el-menu .el-menu-item {
+	padding-left: 10px;
+}
+
+.el-menu--dark .el-menu-item,
+.el-menu--dark .el-submenu__title {
+	color: #fff !important;
+}
+
+.el-menu--dark .el-menu-item:hover,
+.el-menu--dark .el-submenu__title:hover {
+	background: none !important;
+	color: #209e91 !important;
+}
+
+i.fa {
+	margin-right: 15px;
+	font-size: 1.6rem;
+}
+
+body::-webkit-scrollbar {
+	width: 4px;
+}
+
+body::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: #d9d9d9;
+}
+
+.scrollbar::-webkit-scrollbar {
+	width: 0px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, rgb(108, 162, 148)), color-stop(0.72, rgb(94, 154, 144)), color-stop(0.86, rgb(63, 107, 116)));
+}
+
+.comBread .el-breadcrumb__item__inner,
+.comBread .el-breadcrumb__item__inner a {
+	color: #209e91;
+}
+
+.comBread .el-breadcrumb__item:last-child .el-breadcrumb__item__inner {
+	color: #fff;
+}
+
+.comBread.el-breadcrumb{
+	/*float: right;*/
+	font-size: 1.6rem;
+	line-height: 32px;
+}
+
+.comBread .el-breadcrumb__item__inner a:hover,
+.comBread .el-breadcrumb__item__inner:hover {
+	color: #1b867b;
+}
+.commonTop {
+	padding-top: 13px;
+	padding-bottom: 17px;
+}
+/*时间样式修改*/
+	.el-date-picker.el-picker-panel,.el-date-range-picker.el-picker-panel,.el-picker-panel .el-input__inner{
+		background: rgba(0,0,0,.6);
+		color:#fff;
+		border:2px solid #219E91;
+	}
+	.el-date-picker .el-input__inner{
+		background:transparent;
+		color:#fff;
+		border:1px solid #219E91;
+	}
+	.el-date-picker .el-picker-panel__footer{
+		background:transparent;
+		color: #ffffff;
+	}
+	.el-date-picker .el-picker-panel__link-btn,
+	.el-date-picker .el-time-panel__btn,
+	.el-date-picker .el-time-panel__btn.confirm{
+		color: #ffffff;
+	}
+	.el-date-picker .el-picker-panel__btn{
+		background:#219E91;
+		color:#fff;
+		border:1px solid #219E91;
+	}
+	.el-date-picker .el-date-table td.current:not(.disabled), .el-date-table td.end-date, .el-date-table td.start-date{
+		background-color: #219E91!important;
+	}
+	.el-date-picker .el-date-table td.today,
+	.el-date-picker .el-date-picker__header-label.active, .el-date-picker__header-label:hover, .el-picker-panel__icon-btn:hover{
+		color: #219E91;
+	}
+	.el-date-picker .el-date-table td.available:hover,
+	.el-date-picker .el-time-spinner__item:hover:not(.disabled):not(.active){
+		background-color:rgba(0,0,0,.4);
+	}
+	.el-date-picker .el-date-table td.today:before{
+		border-top-color: #219E91;
+	}
+	.el-date-picker .el-input__inner:focus,.el-picker-panel .el-input__inner:focus{
+		border-color: #219E91;
+
+	}
+	.el-date-picker .el-time-panel__content::after, .el-time-panel__content::before{
+		background-color: #219E91;
+	}
+	.el-date-picker .el-time-panel{
+		background: rgba(0,0,0,.7);
+		color:#fff;
+		border:2px solid #219E91;
+	}
+	.el-time-spinner__item.active:not(.disabled){
+		background-color: #219E91;
+	}
+	/*消息通知*/
+	.el-picker-panel .el-picker-panel__footer{
+		background: none;
+	}
+	.el-picker-panel .el-time-panel{
+		background: rgba(0,0,0,.7);
+	}
+	.el-picker-panel .el-time-panel__btn.confirm{
+		color:#219E91;
+	}
+	.el-picker-panel .el-picker-panel__btn{
+		color:#fff;
+	}
+	.el-picker-panel .el-date-table td.current:not(.disabled),.el-picker-panel .el-date-table td.end-date,.el-picker-panel .el-date-table td.start-date{
+		background:#219E91 !important;
+	}
+	.el-picker-panel .el-date-table td.today{
+		color:#219E91;
+	}
+	.el-picker-panel .el-date-table td.today:before{
+		border-top: .5em solid #219E91;
+	}
+	.el-picker-panel .el-picker-panel__link-btn{
+		color:#219E91;
+	}
+	.el-select .el-input__inner:focus{
+		border-color:#219E91 !important;
+	}
+	.el-select-dropdown{
+		background:none!important;
+	}
+	.el-select-dropdown .el-select-dropdown__item{
+		color:#fff;
+		background:rgba(0,0,0,.4);
+	}
+	.el-select-dropdown .el-select-dropdown__item.selected{
+		background:#219E91;
+	}
+	.el-select-dropdown .el-select-dropdown__item.selected.hover {
+    	background-color: #219E91;
+    }
+	.el-select-dropdown .el-select-dropdown__item.hover,.el-select-dropdown .el-select-dropdown__item:hover {
+		background-color: #219E91;
+	}
+	
+	

@@ -1,0 +1,192 @@
+/*
+ * 2017-08-16
+ * by wangpeng
+ */
+div.page_info{
+	padding-top: 13px;
+	padding-bottom: 27px;
+	color: #fff;
+}
+div.page_info h1.title{
+	font-weight: 700; 
+    color: #fff;
+    float: left;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    opacity: .9;
+}
+div.define_container{
+	width:100%;
+	min-height:640px;
+	color:#fff;
+	text-align:center;
+	background:url(../img/modal-bg.jpg) fixed;
+	box-shadow: 0 5px 5px 0 rgba(0,0,0,.25);
+	border: none;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 24px;
+    background-size: 1913px 1076px;
+	background-position: 0px -90px;
+	position: relative;
+}
+div.define_container_title{
+	border-bottom: 1px solid rgba(0,0,0,.12);
+	font-size: 16px;
+	padding: 14px 22px;
+	color: #fff;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	box-shadow: 0 1px 0 0 rgba(255,255,255,.12);
+}
+div.define_container_title h3{
+	font-weight: 400;
+	opacity: .9;
+	font-size: 16px;
+	text-align: left;
+}
+div.define_container_body{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 14px 22px;
+}
+
+div.noticeTable .el-table__empty-text{
+	color: #fff;
+}
+/*
+div.noticeTable>.el-table thead div,
+div.noticeTable>.el-table,
+div.noticeTable>.el-table th,
+div.noticeTable>.el-table tr{
+	background: transparent;
+	color: #fff;
+	text-align: left;
+}
+div.noticeTable>.el-table,
+div.noticeTable>.el-table tr,
+div.noticeTable>.el-table--border td,
+div.noticeTable>.el-table--border th{
+	border-color: rgba(255, 255, 255, 0.2);
+}
+div.noticeTable>.el-table::after,
+div.noticeTable>.el-table::before{
+	background: rgba(255, 255, 255, 0.2);
+}
+div.noticeTable>.el-table tr:hover,
+div.noticeTable>.el-table tr:hover>td{
+	background-color: rgba(0,0,0,.1);
+	color: #fff;
+}*/
+div.defineSelect .el-input__inner,div.detineDateTimePicker .el-input__inner,div.defineInput .el-input__inner{
+	background: transparent;
+	color: #fff;
+	border-color: #219E91;
+}
+div.detineButton .el-button{
+	background: #219E91;
+	color: #fff;
+	border-color: #219E91;
+}
+
+div.breadCrumb{
+	float: right;
+	padding: 11px 0 0;
+}
+
+div.clearfix:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+.define_fl{
+	float: left !important;
+}
+div.defineSelect,
+div.detineDateTimePicker,
+div.detineButton,
+div.defineInput{
+	margin: 5px 0 5px 20px;
+}
+.pages .el-pager li,
+	.pages .el-pagination button.disabled,
+	.pages .el-pagination .btn-next,
+	.el-pagination .btn-prev,
+	.pages .el-pagination__editor {
+		background: transparent;
+	}
+	
+	.pages .el-pagination__editor,
+	.pages .el-pager li:hover,
+	.pages .el-table__empty-text {
+		color: #ffffff;
+	}
+	
+	.defineTable .el-table,
+	.defineTable .el-table th>.cell,
+	.defineTable .el-pagination {
+		color: #ffffff;
+		border: 0px;
+		font-weight: 300;
+	}
+	
+	.defineTable .el-table tr,
+	.defineTable .el-table,
+	.defineTable .el-table::after,
+	.el-table::before,
+	.defineTable .el-table th>.cell,
+	.defineTable .el-table th {
+		background-color: transparent;
+	}
+	
+	.pages .el-pager li.active {
+		border: 1px solid #d1dbe5;
+	}
+	
+	.pages .el-pagination__editor:focus {
+		border-color: #219E91;
+	}
+	.pages .el-pagination__jump {
+		color:#fff;
+	}
+	
+	.defineTable .el-table tr {
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+	
+	.defineTable .el-table--enable-row-hover .el-table__body tr:hover>td {
+		background-color: rgba(255, 255, 255, .1);
+	}
+	
+	.defineTable .el-table td,
+	.el-table th.is-leaf {
+		border-bottom: 1px solid rgba(144, 144, 144, .3);
+	}
+	
+	.pages .el-pager li.active {
+		border-color: #fff;
+		background-color: #219E91;
+		cursor: default;
+	}
+	.pages .el-pagination__total{
+		color:#fff;
+	}
+	.pages .el-pagination .btn-next,
+	.pages .el-pagination .btn-prev {
+		background-color: transparent;
+		color: #fff;
+	}
+	
+	.pages .el-pagination button.disabled {
+		background-color: transparent;
+		color: #fff;
+	}
+	
+	.pages .el-pager li {
+		background-color: transparent;
+		border-radius: 4px;
+		color: #fff;
+	}
+	
